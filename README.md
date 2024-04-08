@@ -27,7 +27,8 @@ Here we will discuss the classification model applied to the mnist datasets
    ### Dataset distribution plotted
    >sns.countplot(data=df,x='class')
    >
-   <img width="451" alt="image" src="https://github.com/sreehari32/MNIST_classification/assets/51872549/eba3c19c-c0da-4eed-bb19-   ceeff3af5bd0">
+   <img width="445" alt="image" src="https://github.com/sreehari32/MNIST_classification/assets/51872549/7ec235c7-27c1-4fb0-82ea-3092c53fdd45">
+
 
 
 
