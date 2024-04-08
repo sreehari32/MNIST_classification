@@ -1,7 +1,7 @@
 # MNIST_classification
 Here we will discuss the classification model applied to the mnist datasets
 
-1. Exploratory Analysis
+1. # Exploratory Analysis
 
    All the necessary libraries are imported
    >import numpy as np
@@ -28,6 +28,10 @@ Here we will discuss the classification model applied to the mnist datasets
    >sns.countplot(data=df,x='class')
    >
    <img width="445" alt="image" src="https://github.com/sreehari32/MNIST_classification/assets/51872549/7ec235c7-27c1-4fb0-82ea-3092c53fdd45">
+
+
+   2.# create_fold.py
+    
 
 
 
