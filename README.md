@@ -64,8 +64,10 @@ Here we will discuss the classification model applied to the mnist datasets
 
    3. # model_dispatcher.py
   
-      a dictionary is created with model names as keys and models as values
-      we started with DecisionTreeClassifier and eventually added the other models after checking the performance
+      A dictionary is created with model names as keys and models as values
+
+      We started with DecisionTreeClassifier and eventually added the other models after checking the performance
+
       Usage of model_dispatcher file enables us to add new models to the algorithm without making any changes in the main program
     
 
