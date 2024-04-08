@@ -42,3 +42,5 @@ def run(fold, model):
 
 
 run(fold=0, model="random_forest")
+run(fold=0, model="random_forest")
+run(fold=0, model="random_forest")
