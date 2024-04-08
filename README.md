@@ -1,4 +1,4 @@
-<img width="445" alt="image" src="https://github.com/sreehari32/MNIST_classification/assets/51872549/723abe87-f6b5-4378-aaa9-c4f9268edf5c"># MNIST_classification
+
 Here we will discuss the classification model applied to the mnist datasets
 
 1. # Exploratory Analysis
@@ -56,11 +56,17 @@ Here we will discuss the classification model applied to the mnist datasets
       >
       >for f, (t_, v_) in enumerate(kf.split(X=df)):
         df.loc[v_, "kfold"] = f
-      > # saving the document
+      > saving the document
       >
       >df.to_csv("inputs/train_folds.csv", index=False)
       >
       The file creates a csv file which has the 70,000 samples being split to 7 groups of 10,000 each
+
+   3. # model_dispatcher.py
+  
+      a dictionary is created with model names as keys and models as values
+      we started with DecisionTreeClassifier and eventually added the other models after checking the performance
+      Usage of model_dispatcher file enables us to add new models to the algorithm without making any changes in the main program
     
 
 
