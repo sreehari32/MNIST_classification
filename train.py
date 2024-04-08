@@ -41,6 +41,8 @@ def run(fold, model):
     joblib.dump(clf, os.path.join(config.MODEL_OUTPUT, f"dt_{fold}.bin"))
 
 
+run(fold=0, model="decision_tree_gini")
+run(fold=0, model="decision_tree_entropy")
 run(fold=0, model="random_forest")
-run(fold=0, model="random_forest")
-run(fold=0, model="random_forest")
+
+
