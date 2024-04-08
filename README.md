@@ -69,7 +69,13 @@ Here we will discuss the classification model applied to the mnist datasets
       We started with DecisionTreeClassifier and eventually added the other models after checking the performance
 
       Usage of model_dispatcher file enables us to add new models to the algorithm without making any changes in the main program
-    
+
+      >>>models = {
+    "decision_tree_gini": tree.DecisionTreeClassifier(criterion="gini"),
+    "decision_tree_entropy": tree.DecisionTreeClassifier(criterion="entropy"),
+    "random_forest": ensemble.RandomForestClassifier(),
+}
+ >>>   
 
 
 
