@@ -38,7 +38,13 @@ Here we will discuss the classification model applied to the mnist datasets
    2. # create_fold.py
       
       A file named create_fold.py is created to split the samples into k folds
-      
+
+      A new column called kfold is created and entered with value -1
+
+      The samples are shuffled and splitted using KFold function
+
+      The corresponding fold number is inserted to the kfold column of the dataframe
+
       ```
        # a new column is created and inserted with value -1
        df["kfold"] = -1
