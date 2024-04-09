@@ -88,7 +88,20 @@ Here we will discuss the classification model applied to the mnist datasets
 
           ```
 
-       A function called as 'run' with two parameters, 'fold' and 'model' is defined
+       A function called as 'run' with two parameters, 'fold' and 'model' is defined.
+  
+       In this function we will load the dataframe to the df
+  
+       After that which ever rows are having value 'fold' in the kfold column will be extracted to form the
+       cross validation dataset and rest as the training dataframe.
+  
+       Then the X_train and y_train is extracted out of the training dataframe.
+       Similarly X_cv and y_cv from the cross validation dataframe
+  
+       Parameter model mentions the algorithm to be used and is extracted from the model dictionary of model_dispatcher.py file  
+  
+       Training set is fitted with the algorithm and evaluated using Accuracy metrics
+       
 
        ```
        def run(fold, model):
