@@ -124,10 +124,11 @@ Here we will discuss the classification model applied to the mnist datasets
        print(f"For fold={fold} the accuracy is = {accuracy}")
 
 
-      run(fold=0, model="decision_tree_gini")
-      run(fold=0, model="decision_tree_entropy")
-      run(fold=0, model="random_forest")
-      ```
+       run(fold=0, model="decision_tree_gini")
+       run(fold=0, model="decision_tree_entropy")
+       run(fold=0, model="random_forest")
+
+   ```
 
 We have added each model after evaluating the performance of the previous model.
 
